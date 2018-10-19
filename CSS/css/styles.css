@@ -18,8 +18,9 @@ body{
   margin-top: 20px;
 }
 
-.effect{
-  background-color: rgba( 240, 240, 240, 0.7);
+.wrapper-color{
+  width: 100%;
+  background-color: #eee
 }
 
 .text-muted {
@@ -52,8 +53,8 @@ body{
 }
 
 .img2-size{
-  height: 270px;
-  width: 555px;
+  min-height: 270px;
+  min-width: 555px;
 }
 
 
