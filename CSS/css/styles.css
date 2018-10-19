@@ -14,6 +14,10 @@ body{
   width: 85px;
 }
 
+.title-logo{
+  margin-top: 20px;
+}
+
 .effect{
   background-color: rgba( 240, 240, 240, 0.7);
 }
@@ -35,13 +39,22 @@ body{
 
 .link_style:hover{
   text-decoration: none;
-  color: black;
+  color: #F8981C;
 }
 
 .space{
   margin-bottom: 50px;
 }
 
+.img-size{
+  height:175px;
+  width: 360px;
+}
+
+.img2-size{
+  height: 270px;
+  width: 555px;
+}
 
 
 .footer_social{
@@ -67,8 +80,8 @@ footer{
   padding: 60px 0;
 }
 
-@media (max-width: 990px){
+@media (max-width: 700px){
   .mylogo{
-    width: 49px;
+    width: 65px;
   }
 }
