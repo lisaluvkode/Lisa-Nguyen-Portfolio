@@ -1,7 +1,17 @@
-﻿body{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
    font-family: 'Lato', sans-serif;
    color:#676858;
    font-weight: 300;
+}
+
+.effect{
+  background-color: rgba( 240, 240, 240, 0.7);
 }
 
 .text-muted {
@@ -12,5 +22,49 @@
 }
 
 .title-super {
-   font-size: 68px;  
+   font-size: 68px;
+}
+
+.text_style{
+  text-decoration: none;
+}
+
+.link_style:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.space{
+  margin-bottom: 50px;
+}
+
+
+
+.footer_social{
+  margin-top: 27px;
+}
+
+ul li a{
+  color: #007bff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer ul li{
+    display: inline;
+    padding:35px;
+}
+
+footer{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,.2);
+  padding: 60px 0;
+}
+
+@media (max-width: 990px){
+  .mylogo{
+    width: 49px;
+  }
 }
