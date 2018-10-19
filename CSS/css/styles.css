@@ -10,6 +10,10 @@ body{
    font-weight: 300;
 }
 
+.mylogo{
+  width: 85px;
+}
+
 .effect{
   background-color: rgba( 240, 240, 240, 0.7);
 }
