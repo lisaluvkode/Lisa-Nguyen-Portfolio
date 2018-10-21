@@ -14,6 +14,10 @@ body{
   width: 85px;
 }
 
+.opa{
+  opacity: 0.8;
+}
+
 .title-logo{
   margin-top: 20px;
 }
