@@ -34,6 +34,12 @@ body{
    font-weight:100;
 }
 
+.text_upper{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: gray;
+}
+
 .title-super {
    font-size: 68px;
 }
@@ -48,7 +54,7 @@ body{
 }
 
 .space{
-  margin-bottom: 50px;
+  margin: 20px 0 50px;
 }
 
 .img-size{
