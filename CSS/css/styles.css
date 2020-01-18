@@ -14,6 +14,26 @@ body{
   width: 85px;
 }
 
+.nav{
+	list-style: none;
+	text-align: center;
+
+}
+
+.nav li{
+	display: inline;
+	padding: 25px;
+}
+
+.nav a{
+	color:black;
+}
+
+.nav a:hover{
+  text-decoration: underline;
+  text-decoration-color: #F8981C;
+}
+
 .opa{
   opacity: 0.8;
 }
@@ -55,6 +75,23 @@ body{
 
 .space{
   margin: 20px 0 50px;
+}
+
+.skills{
+	text-align: right;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.beginner{
+	width: 50%; background-color: #4CAF50;
+}
+.intermediate{
+	width: 70%; background-color: #4CAF50;
+}
+.advanced{
+	width: 90%; background-color: #4CAF50;
 }
 
 .img-size{
@@ -99,4 +136,16 @@ footer{
   .mylogo{
     width: 65px;
   }
+  .portrait{
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media (max-width:550px){
+	.nav li a{
+		width: 100%;
+		float: right;
+		padding-bottom: 25px;
+	}
 }
