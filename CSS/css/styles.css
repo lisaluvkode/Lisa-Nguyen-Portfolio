@@ -10,6 +10,10 @@ body{
    font-weight: 300;
 }
 
+.job-description{
+  margin-left: 45px;
+}
+
 .mylogo{
   width: 85px;
 }
